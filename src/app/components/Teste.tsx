@@ -14,6 +14,7 @@ export default function Teste({idade, nome}:Propriedades) {
   function aumentar(){
     setNovaIdade(novaIdade+1)
   }
+  
 
     return (
       <div className="mb-5">
