@@ -8,7 +8,7 @@ export default function NewForm() {
   const [telefone, setTelefone] = useState(''); // Novo campo
   const [email, setEmail] = useState(''); // Novo campo
   const [estadoCivil, setEstadoCivil] = useState(''); // Novo campo
-
+  
   const handleCadastro = () => {
     // Lógica para enviar os dados do novo usuário para o servidor
     console.log('Nome:', nome);
